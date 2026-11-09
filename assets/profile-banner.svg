@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Harsh Shah — Python and Backend Development</title>
+<desc id="desc">Dark navy banner with teal accents and the words APIs, automation, and cloud.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#122b37"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5eead4" stroke-opacity=".06"/></pattern></defs>
+<rect width="1200" height="300" rx="20" fill="url(#bg)"/><rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+<circle cx="1130" cy="50" r="160" fill="none" stroke="#2dd4bf" stroke-opacity=".12" stroke-width="40"/>
+<rect x="65" y="61" width="46" height="4" rx="2" fill="#5eead4"/>
+<text x="65" y="128" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Harsh Shah</text>
+<text x="67" y="177" fill="#5eead4" font-family="Segoe UI,Arial,sans-serif" font-size="23">Python &amp; Backend Development</text>
+<text x="67" y="229" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3">APIs  /  AUTOMATION  /  CLOUD</text>
+<text x="945" y="190" fill="#5eead4" opacity=".4" font-family="Consolas,monospace" font-size="86">{ }</text>
+</svg>
