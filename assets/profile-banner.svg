@@ -1,12 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Harsh Shah — Python and Backend Development</title>
-<desc id="desc">Dark navy banner with teal accents and the words APIs, automation, and cloud.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#122b37"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5eead4" stroke-opacity=".06"/></pattern></defs>
-<rect width="1200" height="300" rx="20" fill="url(#bg)"/><rect width="1200" height="300" rx="20" fill="url(#grid)"/>
-<circle cx="1130" cy="50" r="160" fill="none" stroke="#2dd4bf" stroke-opacity=".12" stroke-width="40"/>
-<rect x="65" y="61" width="46" height="4" rx="2" fill="#5eead4"/>
-<text x="65" y="128" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Harsh Shah</text>
-<text x="67" y="177" fill="#5eead4" font-family="Segoe UI,Arial,sans-serif" font-size="23">Python &amp; Backend Development</text>
-<text x="67" y="229" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3">APIs  /  AUTOMATION  /  CLOUD</text>
-<text x="945" y="190" fill="#5eead4" opacity=".4" font-family="Consolas,monospace" font-size="86">{ }</text>
+<desc id="desc">Animated terminal banner with flowing connections between APIs, background workers, and cloud services.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080e1c"/><stop offset="1" stop-color="#102e3c"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#5eead4" stroke-opacity=".05"/></pattern>
+  <clipPath id="typing"><rect x="718" y="145" width="0" height="25"><animate attributeName="width" values="0;0;380;380;0" keyTimes="0;.1;.5;.9;1" dur="8s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<circle cx="1140" cy="25" r="180" fill="#22d3ee" opacity=".035"><animate attributeName="r" values="160;200;160" dur="9s" repeatCount="indefinite"/></circle>
+<rect x="56" y="57" width="44" height="4" rx="2" fill="url(#accent)"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+  <text x="56" y="122" fill="#f1f5f9" font-size="49" font-weight="700">Harsh Shah</text>
+  <text x="58" y="164" fill="#5eead4" font-size="21">Python &amp; Backend Development</text>
+  <text x="58" y="202" fill="#94a3b8" font-size="15">APIs. Background workers. Cloud infrastructure.</text>
+  <g font-size="12" font-weight="600" letter-spacing="1">
+    <rect x="58" y="240" width="94" height="30" rx="15" fill="#123a3c" stroke="#23554f"/><text x="77" y="260" fill="#99f6e4">PYTHON</text>
+    <rect x="163" y="240" width="97" height="30" rx="15" fill="#102e43" stroke="#234e63"/><text x="182" y="260" fill="#7dd3fc">DJANGO</text>
+    <rect x="271" y="240" width="78" height="30" rx="15" fill="#202843" stroke="#394361"/><text x="291" y="260" fill="#c4b5fd">AWS</text>
+  </g>
+</g>
+<g>
+  <rect x="670" y="61" width="472" height="226" rx="14" fill="#090f1d" stroke="#254151"/>
+  <path d="M670 103H1142" stroke="#254151"/>
+  <circle cx="692" cy="82" r="5" fill="#fb7185"/><circle cx="710" cy="82" r="5" fill="#fbbf24"/><circle cx="728" cy="82" r="5" fill="#34d399"/>
+  <text x="906" y="87" text-anchor="middle" fill="#64748b" font-family="Consolas,monospace" font-size="12">harsh@dev ~</text>
+  <g font-family="Consolas,monospace" font-size="15">
+    <text x="695" y="139" fill="#5eead4">❯ <tspan fill="#cbd5e1">python developer.py</tspan></text>
+    <text x="718" y="163" fill="#7dd3fc" clip-path="url(#typing)">APIs • automation • cloud</text>
+    <text x="695" y="202" fill="#64748b">stack</text>
+    <text x="718" y="226" fill="#a7f3d0">Django / FastAPI / Celery</text>
+    <text x="718" y="250" fill="#a7f3d0">PostgreSQL / Redis / Docker</text>
+    <rect x="718" y="263" width="8" height="3" rx="1" fill="#5eead4"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
+  </g>
+</g>
+<g stroke="#24495b" fill="none"><path d="M58 316H1140"/></g>
+<g fill="#5eead4">
+  <circle cx="58" cy="316" r="3"><animate attributeName="cx" values="58;1140" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="58" cy="316" r="3" opacity=".45"><animate attributeName="cx" values="58;1140" dur="7s" begin="-3.5s" repeatCount="indefinite"/></circle>
+</g>
 </svg>

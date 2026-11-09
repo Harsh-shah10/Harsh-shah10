@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Harsh-shah10/Harsh-shah10/main/assets/profile-banner.svg" width="100%" alt="Harsh Shah — Python and Backend Development. APIs, automation, and cloud." />
+<img src="https://raw.githubusercontent.com/Harsh-shah10/Harsh-shah10/main/assets/profile-banner.svg?v=2" width="100%" alt="Harsh Shah — Python and Backend Development. APIs, automation, and cloud." />
 
 ### Hi, I'm Harsh 👋
 
