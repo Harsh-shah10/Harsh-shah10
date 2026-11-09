@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" width="100%" alt="Harsh Shah — Python and Backend Development. APIs, automation, and cloud." />
+<img src="https://raw.githubusercontent.com/Harsh-shah10/Harsh-shah10/main/assets/profile-banner.svg" width="100%" alt="Harsh Shah — Python and Backend Development. APIs, automation, and cloud." />
 
 ### Hi, I'm Harsh 👋
 
 Python development · Backend systems · Cloud tooling
 
-I work with Python web frameworks, RESTful APIs, background tasks, and relational databases.  
+I work with Python web frameworks, RESTful APIs, background tasks, and relational databases.<br />
 My toolkit spans backend development, asynchronous processing, and AWS infrastructure.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Harsh--shah10-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsh-shah10)
